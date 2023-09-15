@@ -13,15 +13,12 @@
     background-color: #0b65c6;
     width: 100%;
     padding: 2rem 2rem 2rem 2rem;
-    /* height: 100%; */
-    /* border: 4px solid green; */
 }
 .top-nav{
     display: flex;
     width: 100%;
     flex-direction: row;
     height: 15lvh;
-    /* border: 3px solid pink; */
     padding-right: 6.5rem;
     padding-left: 6.5rem;
     justify-content: center;
@@ -29,29 +26,17 @@
 }
 .top-nav img{
     width: 170px;
-    /* margin-top: -rem; */
-    /* border: 3px solid blue; */
 }
 .nav-link{
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* margin-left: 2rem; */
-    /* border: 3px solid greenyellow; */
-    /* gap: 1rem; */
-    /* align-items: left; */
-    /* height: 5rem; */
     margin-top: 5rem;
 }
-a{
+#stash{
     margin-left: 4rem;
     margin-bottom: -5rem;
     text-decoration: none;
     color: #fff;
     font-size: 17px;
     font-weight: bold;
-    
-    /* border: 2px solid red; */
-
 }
 .badge{
     display: inline-block;
@@ -95,10 +80,7 @@ a{
 }
 .side-1{
    font-size: 18px;
-   /* display: inline-flexbox; */
-   /* border: 2px solid black; */
    width: 100%;
-   /* text-align: center; */
    color: #fff;
 }
 .side-1 h1{
@@ -112,14 +94,12 @@ a{
     text-align: center;
 }
 .graph{
-    /* border: 1px solid; */
     margin-left: 1em;
 }
 .side-1 p{
     font-size: 1.3rem;
     font-weight: 400;
     display: block;
-    /* border: 2px solid; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: -4.5rem;
@@ -128,14 +108,12 @@ a{
 .param{
     font-size: 1.3rem;
     display: block;
-    /* border: 2px solid; */
     font-weight: 400;
     margin-right: 3.4rem;
     
 
 }
 .download{
-    /* border: 2px solid black; */
     padding-right: 1rem;
     padding-left: 1rem;
     box-sizing: border-box;
@@ -159,7 +137,6 @@ a{
     margin-top: -20px;
 }
 .download-here{
-    /* border: 2px solid; */
     display: flex; 
     flex-wrap: wrap;
     margin-right: -20px;
@@ -168,10 +145,8 @@ a{
     padding-left: 0.155rem;
     justify-content: flex-start;
     margin-left: -2px;
-    /* text-align: left; */
     gap: 2rem;
     box-sizing: content-box;
-    /* background-color: black; */
 }
 .side-2{
     width: 100%;
@@ -179,10 +154,7 @@ a{
 .side-2 img{
     width: 100%;
     margin-top: 1rem;
-    /* height: 100%; */
-    /* margin-top: -1rem; */
 }
-/* media query starts here*/
 @media all and (max-width:991px) {
     .nav-container{
         width: 100%;
@@ -207,7 +179,6 @@ a{
         display: block;
         width: 100%;
         margin-left: 1rem;
-        /* border: 2px solid; */
         align-items: center;
     }
     .download-here{
@@ -223,15 +194,12 @@ a{
         background-color: #0b65c6;
         width: 100%;
         padding: 2rem 2rem 2rem 2rem;
-        /* height: 100%; */
-        /* border: 4px solid green; */
     }
     .top-nav{
         display: flex;
         width: 100%;
         flex-direction: row;
         height: 15lvh;
-        /* border: 3px solid pink; */
         padding-right: 6.5rem;
         padding-left: 6.5rem;
         justify-content: center;
@@ -240,16 +208,13 @@ a{
     .top-nav img{
         width: 180px;
     }
-    a{
+    #stash{
         margin-left: 4rem;
         margin-bottom: -5rem;
         text-decoration: none;
         color: #fff;
         font-size: 17px;
         font-weight: bold;
-        
-        /* border: 2px solid red; */
-    
     }
     .hambugerMenu{
         display: none;
@@ -277,7 +242,6 @@ a{
         font-size: 1.3rem;
         font-weight: 400;
         display: block;
-        /* border: 2px solid; */
         margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: -4.5rem;
@@ -286,21 +250,18 @@ a{
     .param{
         font-size: 1.3rem;
         display: block;
-        /* border: 2px solid; */
         font-weight: 400;
         margin-right: 3.4rem;
         
     
     }
     .download{
-        /* border: 2px solid black; */
         padding-right: 1rem;
         padding-left: 1rem;
         box-sizing: border-box;
         align-self: center;
     }
     .download-here{
-     /* border: 2px solid; */
      display: flex; 
      flex-wrap: wrap;
      margin-right: -20px;
@@ -309,10 +270,8 @@ a{
      padding-left: 0.155rem;
      justify-content: flex-start;
      margin-left: -2px;
-     /* text-align: left; */
      gap: 2rem;
      box-sizing: content-box;
-     /* background-color: black; */
     }
     
     .side-2{
@@ -321,8 +280,6 @@ a{
     .side-2 img{
         width: 100%;
         margin-top: 1rem;
-        /* height: 100%; */
-        /* margin-top: -1rem; */
     }
 }
 @media (min-width:2560px) {
