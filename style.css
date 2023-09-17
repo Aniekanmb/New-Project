@@ -3,18 +3,21 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "IBM Plex Sans", sans-serif;
-  }
-  .container {
+}
+
+.container {
     width: 100%;
     height: 100vh;
-  }
+}
+
 /* Nav-Bar/Hero Section Starts Here */
-.nav-container{
+.nav-container {
     background-color: #0b65c6;
     width: 100%;
     padding: 2rem 2rem 2rem 2rem;
 }
-.top-nav{
+
+.top-nav {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -24,13 +27,16 @@
     justify-content: center;
     align-items: center;
 }
-.top-nav img{
+
+.top-nav img {
     width: 170px;
 }
-.nav-link{
+
+.nav-link {
     margin-top: 5rem;
 }
-#stash{
+
+#stash {
     margin-left: 4rem;
     margin-bottom: -5rem;
     text-decoration: none;
@@ -38,7 +44,8 @@
     font-size: 17px;
     font-weight: bold;
 }
-.badge{
+
+.badge {
     display: inline-block;
     font-size: 75%;
     font-weight: 700;
@@ -51,7 +58,8 @@
     padding-left: 0.5rem;
     vertical-align: baseline;
 }
-.hambugerMenu{
+
+.hambugerMenu {
     width: 50px;
     height: 50px;
     display: flex;
@@ -61,7 +69,8 @@
     margin-left: 10px;
     align-items: center;
 }
-.hambugerMenu span{
+
+.hambugerMenu span {
     border: 1px solid;
     border-radius: 10px;
     width: 35px;
@@ -69,7 +78,8 @@
     align-items: center;
     background-color: #fff;
 }
-.home-container{
+
+.home-container {
     display: flex;
     margin-top: 7rem;
     text-align: center;
@@ -78,12 +88,14 @@
     padding-left: 1rem;
 
 }
-.side-1{
-   font-size: 18px;
-   width: 100%;
-   color: #fff;
+
+.side-1 {
+    font-size: 18px;
+    width: 100%;
+    color: #fff;
 }
-.side-1 h1{
+
+.side-1 h1 {
     font-size: 3rem;
     display: flex;
     flex-wrap: wrap;
@@ -93,10 +105,12 @@
     margin-top: 5.5rem;
     text-align: center;
 }
-.graph{
+
+.graph {
     margin-left: 1em;
 }
-.side-1 p{
+
+.side-1 p {
     font-size: 1.3rem;
     font-weight: 400;
     display: block;
@@ -105,39 +119,45 @@
     margin-inline-start: -4.5rem;
 
 }
-.param{
+
+.param {
     font-size: 1.3rem;
     display: block;
     font-weight: 400;
     margin-right: 3.4rem;
-    
+
 
 }
-.download{
+
+.download {
     padding-right: 1rem;
     padding-left: 1rem;
     box-sizing: border-box;
     align-self: center;
 }
 
-.apple-logo img{
+.apple-logo img {
     width: 200px;
     margin-right: -2rem;
 }
-.playstore-logo img{
+
+.playstore-logo img {
     width: 150px;
     margin-top: 15px;
 }
-.andriod-logo img{
+
+.andriod-logo img {
     width: 150px;
     margin-top: 15px;
 }
-.chrome-logo img{
+
+.chrome-logo img {
     width: 160px;
     margin-top: -20px;
 }
-.download-here{
-    display: flex; 
+
+.download-here {
+    display: flex;
     flex-wrap: wrap;
     margin-right: -20px;
     margin-top: 1rem;
@@ -148,54 +168,66 @@
     gap: 2rem;
     box-sizing: content-box;
 }
-.side-2{
+
+.side-2 {
     width: 100%;
 }
-.side-2 img{
+
+.side-2 img {
     width: 100%;
     margin-top: 1rem;
 }
+
 @media all and (max-width:991px) {
-    .nav-container{
+    .nav-container {
         width: 100%;
     }
-    .top-nav a{
+
+    .top-nav a {
         display: none;
     }
-    .top-nav img{
+
+    .top-nav img {
         width: 200px;
     }
-    .home-container{
+
+    .home-container {
         display: block;
         align-items: center;
         width: 100%;
         justify-content: space-between;
     }
-    .home-container h1{
+
+    .home-container h1 {
         display: block;
         align-items: center;
     }
-    .home-container p{
+
+    .home-container p {
         display: block;
         width: 100%;
         margin-left: 1rem;
         align-items: center;
     }
-    .download-here{
+
+    .download-here {
         display: block;
         width: 100%;
     }
-    .chrome-logo img{
+
+    .chrome-logo img {
         margin-top: 2rem;
     }
 }
+
 @media all and (min-width:992px) {
-    .nav-container{
+    .nav-container {
         background-color: #0b65c6;
         width: 100%;
         padding: 2rem 2rem 2rem 2rem;
     }
-    .top-nav{
+
+    .top-nav {
         display: flex;
         width: 100%;
         flex-direction: row;
@@ -205,10 +237,12 @@
         justify-content: center;
         align-items: center;
     }
-    .top-nav img{
+
+    .top-nav img {
         width: 180px;
     }
-    #stash{
+
+    #stash {
         margin-left: 4rem;
         margin-bottom: -5rem;
         text-decoration: none;
@@ -216,19 +250,22 @@
         font-size: 17px;
         font-weight: bold;
     }
-    .hambugerMenu{
+
+    .hambugerMenu {
         display: none;
     }
-    .home-container{
+
+    .home-container {
         display: flex;
         margin-top: 7rem;
         text-align: center;
         width: 100%;
         padding-right: 1rem;
         padding-left: 1rem;
-    
+
     }
-    .side-1 h1{
+
+    .side-1 h1 {
         font-size: 3rem;
         display: flex;
         flex-wrap: wrap;
@@ -238,65 +275,75 @@
         margin-top: 5.5rem;
         text-align: center;
     }
-    .side-1 p{
+
+    .side-1 p {
         font-size: 1.3rem;
         font-weight: 400;
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: -4.5rem;
-    
+
     }
-    .param{
+
+    .param {
         font-size: 1.3rem;
         display: block;
         font-weight: 400;
         margin-right: 3.4rem;
-        
-    
+
+
     }
-    .download{
+
+    .download {
         padding-right: 1rem;
         padding-left: 1rem;
         box-sizing: border-box;
         align-self: center;
     }
-    .download-here{
-     display: flex; 
-     flex-wrap: wrap;
-     margin-right: -20px;
-     margin-top: 1rem;
-     padding-right: 1rem;
-     padding-left: 0.155rem;
-     justify-content: flex-start;
-     margin-left: -2px;
-     gap: 2rem;
-     box-sizing: content-box;
+
+    .download-here {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: -20px;
+        margin-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 0.155rem;
+        justify-content: flex-start;
+        margin-left: -2px;
+        gap: 2rem;
+        box-sizing: content-box;
     }
-    
-    .side-2{
+
+    .side-2 {
         width: 100%;
     }
-    .side-2 img{
+
+    .side-2 img {
         width: 100%;
         margin-top: 1rem;
     }
 }
+
 @media (min-width:2560px) {
-    .top-nav{
+    .top-nav {
         width: 100%;
     }
-    .home-container{
+
+    .home-container {
         width: 100%;
     }
-    .side-1 p{
+
+    .side-1 p {
         margin-right: 35rem;
-        
+
     }
-    .param{
+
+    .param {
         margin-right: 2rem;
     }
 }
+
 /* Nav-Bar/Hero Section Ends Here */
 
 /* Crypto Currencies Section Starts Here */
@@ -304,110 +351,480 @@
 /* Crypto Currencies Section Ends Here */
 
 /* Buy Crypto Currencies - Private And Secure Section Starts Here */
+.mini-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.mini-wrapper-text {
+    width: 50%;
+}
+
+.mini-wrapper p {
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.mini-wrapper-image {
+    width: 50%;
+}
+
+.mini-wrapper-image img {
+    width: 100%;
+    height: 100%;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+    .mini-wrapper {
+        padding: 0 0 16px 16px;
+        margin-top: 51rem;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        /* height: 900px; */
+    }
+
+    .mini-wrapper-text {
+        width: 100%;
+    }
+
+    .mini-wrapper-image {
+        width: 100%;
+    }
+
+    .mini-wrapper h1 {
+        font-size: 2rem;
+    }
+}
+
+.fourth-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.fourth-main-text {
+    width: 50%;
+}
+
+.fourth-main-image {
+    width: 50%;
+}
+
+.fourth-main img {
+    width: 100%;
+    height: 100%;
+}
+
+.fourth-main h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fourth-main p {
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 20px;
+    padding-right: 4rem;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+    .fourth-main {
+        padding: 10px 0 16px 16px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .fourth-main-image {
+        width: 100%;
+    }
+
+    .fourth-main h1 {
+        font-size: 2rem;
+    }
+
+    .fourth-main-text {
+        width: 100%;
+    }
+
+    .fourth-main p {
+        padding: 16px 0 16px 16px;
+    }
+}
+
+.fifth-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.fifth-main-text {
+    width: 50%;
+}
+
+.fifth-main-image {
+    width: 50%;
+}
+
+.fifth-main img {
+    width: 100%;
+    height: 100%;
+}
+
+.fifth-main h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.fifth-main p {
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+    .fifth-main {
+        padding: 10px 0 16px 16px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        /* height: 900px; */
+    }
+
+    .fifth-main-image {
+        width: 100%;
+    }
+
+    .fifth-main-text {
+        width: 100%;
+    }
+
+    .fifth-main h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+/* sixth main */
+.sixth-main {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 8rem;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.sixth-main-text {
+    width: 50%;
+}
+
+.sixth-main-image {
+    width: 50%;
+}
+
+.sixth-main img {
+    width: 100%;
+    height: 100%;
+}
+
+.sixth-main h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sixth-main p {
+    padding-top: 1rem;
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+/* media queries */
+@media (max-width: 900px) {
+    .sixth-main {
+        padding: 10px 0 16px 16px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sixth-main-image {
+        width: 100%;
+    }
+
+    .sixth-main h1 {
+        font-size: 2rem;
+    }
+
+    .sixth-main-text {
+        width: 100%;
+    }
+
+    .sixth-main p {
+        padding: 16px 0 12px 0px;
+    }
+}
 
 /* Buy Crypto Currencies - Private And Secure Section Ends Here */
 
 /* Get Started - Trust Wallet App Section Starts Here */
+.fifthportion {
+    text-align: center;
+    font-size: 30px;
+}
+
+.fifthportion p {
+    font-size: 25px;
+}
+
+.imageportion {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.firstimage p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.secondimage p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.thirdimage p {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.imageportion img {
+    width: 300px;
+    height: 200px;
+}
+
+.fifthportion button {
+    margin-top: 4rem;
+    color: white;
+    background-color: #0b65c6;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #0953a2;
+}
+
+@media (max-width: 900px) {
+    .imageportion {
+        padding: 10px 0 16px 16px;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+}
+
+.sixthportion {
+    display: flex;
+    background-color: whitesmoke;
+    gap: 30rem;
+}
+
+.writing {
+    display: block;
+}
+
+.logoimgs {
+    display: block;
+    margin-left: 50rem;
+}
+
+.logoimgs img {
+    height: 60px;
+    width: 100px;
+}
+
+.imgdiv {
+    display: flex;
+}
+
+.extraimg {
+    display: flex;
+}
+
+.writingextra {
+    margin-left: 9rem;
+    margin-top: 5rem;
+}
+
+
+@media (max-width: 900px) {
+    .sixthportion {
+        display: block;
+        background-color: whitesmoke;
+    }
+
+    .imgdiv {
+        display: block;
+    }
+
+    .extra {
+        margin-left: 2rem;
+    }
+
+    .logoimgs {
+        display: block;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+}
 
 /* Get Started - Trust Wallet App Section Ends Here */
 
 /* Footer Section Starts Here */
-.footer-home-button a{
-  color: rgb(11, 101, 198);
-  font-weight: 700;
-  text-decoration: none;
-  font-size: 1.6rem;
+.footer-home-button a {
+    color: rgb(11, 101, 198);
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.6rem;
 }
 
-.footer-section{
-  background-color: rgb(255, 255, 255);
-  padding: 48px 0 48px 0;
-  line-height: 27.2px;
-  display: block;
+.footer-section {
+    background-color: rgb(255, 255, 255);
+    padding: 48px 0 48px 0;
+    line-height: 27.2px;
+    display: block;
 }
-.contents{
-  text-align: center;
+
+.contents {
+    text-align: center;
 }
-.contents h4{
-  letter-spacing: 0.08em;
-  line-height: 1.45rem;
-  font-weight: 700;
-  font-size: 0.95rem;
+
+.contents h4 {
+    letter-spacing: 0.08em;
+    line-height: 1.45rem;
+    font-weight: 700;
+    font-size: 0.95rem;
 }
 
 .footer-home-button {
-  height: 20vh;
+    height: 20vh;
 }
-.contents ul{
-  display: block;
-  line-height: 2.6rem;
+
+.contents ul {
+    display: block;
+    line-height: 2.6rem;
 
 }
-.contents li{
-  list-style: none;
-  font-weight: 500;
-  font-size: 1.1rem;
+
+.contents li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
-.first-column a,.second-column a,.third-column a,.fourth-column a{
-  text-decoration: none;
-  color:rgb(74, 84, 94);
+
+.first-column a,
+.second-column a,
+.third-column a,
+.fourth-column a {
+    text-decoration: none;
+    color: rgb(74, 84, 94);
 }
-.first-column a:hover,.second-column a:hover,.third-column a:hover,.fourth-column a:hover{
-  text-decoration: underline;
+
+.first-column a:hover,
+.second-column a:hover,
+.third-column a:hover,
+.fourth-column a:hover {
+    text-decoration: underline;
 }
-.first-column,.second-column,.third-column,.fourth-column {
-  color:rgb(74, 84, 94);
+
+.first-column,
+.second-column,
+.third-column,
+.fourth-column {
+    color: rgb(74, 84, 94);
 }
+
 /* MEDIA QUERIES STRATS HERE  */
 
 /*  MEDIA QUERY FOR MEDIUM SCREENS */
 @media (min-width:768px) {
-  .footer-home-button a{
-      color: rgb(11, 101, 198);
-      font-weight: 700;
-      text-decoration: none;
-      font-size: 1.6rem;
-      /* width: 2%; */
-  }
-  .contents{
-      text-align: left;
-  }
- 
-  .first-three-column{
-      display: flex;
-      gap: 4rem;
-      justify-content: center;
-  }
- .last-two-column{
-  display: flex;
-  margin-left: 18.7rem;
-  gap: 2rem;
-  
- }
+    .footer-home-button a {
+        color: rgb(11, 101, 198);
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1.6rem;
+        /* width: 2%; */
+    }
+
+    .contents {
+        text-align: left;
+    }
+
+    .first-three-column {
+        display: flex;
+        gap: 4rem;
+        justify-content: center;
+    }
+
+    .last-two-column {
+        display: flex;
+        margin-left: 18.7rem;
+        gap: 2rem;
+
+    }
 }
 
 /*  MEDIA QUERY FOR LARGE SCREENS */
 @media (min-width:800px) {
-  
-  .footer-home-button{
-      width: 60%;
-  }
-  .contents{
-      display: flex;
-      gap: 2rem;
-      justify-content: center;
-      padding: 0 1rem;
-      margin: 0 1rem;
-  }
-  .first-three-column{
-      display: flex;
-      justify-content: center;
-  }
- .last-two-column{
-  display: flex;
-  margin-left: 0;
-  gap: 2rem;
- }
- 
+
+    .footer-home-button {
+        width: 60%;
+    }
+
+    .contents {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        padding: 0 1rem;
+        margin: 0 1rem;
+    }
+
+    .first-three-column {
+        display: flex;
+        justify-content: center;
+    }
+
+    .last-two-column {
+        display: flex;
+        margin-left: 0;
+        gap: 2rem;
+    }
+
 }
+
 /*  Footer Section Ends Here */
