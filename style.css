@@ -142,8 +142,8 @@
 }
 
 .playstore-logo img {
-    width: 150px;
-    margin-top: 15px;
+    width: 200px;
+    margin-right: -2rem;
 }
 
 .andriod-logo img {
@@ -152,7 +152,7 @@
 }
 
 .chrome-logo img {
-    width: 160px;
+    width: 200px;
     margin-top: -20px;
 }
 
@@ -165,7 +165,7 @@
     padding-left: 0.155rem;
     justify-content: flex-start;
     margin-left: -2px;
-    gap: 2rem;
+    gap: 1rem;
     box-sizing: content-box;
 }
 
